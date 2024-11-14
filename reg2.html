@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Sample Registration Form</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td><label for="firstName">First Name:</label></td>
+                <td><input type="text" id="firstName" name="firstName"></td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name:</label></td>
+                <td><input type="text" id="lastName" name="lastName"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Qualifications:</td>
+                <td>
+                    <input type="checkbox" id="pg" name="qualification" value="Post Graduate">
+                    <label for="pg">Post Graduate</label><br>
+                    <input type="checkbox" id="ug" name="qualification" value="Under Graduate">
+                    <label for="ug">Under Graduate</label><br>
+                    <input type="checkbox" id="plusTwo" name="qualification" value="Plus Two">
+                    <label for="plusTwo">Plus Two</label><br>
+                    <input type="checkbox" id="sslc" name="qualification" value="SSLC">
+                    <label for="sslc">SSLC</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="qualificationCert">Qualification Certificate:</label></td>
+                <td><input type="file" id="qualificationCert" name="qualificationCert"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
